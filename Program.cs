@@ -15,11 +15,11 @@ namespace CSHttpClientSample
     {
         // Add your Computer Vision subscription key and endpoint to your environment variables.
         //static string subscriptionKey = Environment.GetEnvironmentVariable("COMPUTER_VISION_SUBSCRIPTION_KEY");
-        static string subscriptionKey = "b806a1b987284cd39a802d4115869759";
+        static string subscriptionKey = "COMPUTER_VISION_SUBSCRIPTION_KEY";
 
         // An endpoint should have a format like "https://westus.api.cognitive.microsoft.com"
         //static string endpoint = Environment.GetEnvironmentVariable("COMPUTER_VISION_ENDPOINT");
-        static string endpoint = "https://computervisionr.cognitiveservices.azure.com/";
+        static string endpoint = "COMPUTER_VISION_ENDPOINT";
 
 
         // Add a local image with text here (png or jpg is OK)
